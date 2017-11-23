@@ -3,16 +3,16 @@
 ## docker build:
 
 ```
-docker build -t myownnode
+docker build -t seatmap .
 ```
 
 ## docker run:
 
 
 ```
-docker run -d -p 41690:8080 myownnode
+docker run -p 49160:8080 -d seatmap
 ```
 
 ```
-docker run -d -p 41690:8080 -v /home/stano/projects/myown_node/:/usr/src/app . -->
+docker run -p 49160:8080 -d -v /home/stano/projects/myown_node/:/usr/src/app . -->
 ```
